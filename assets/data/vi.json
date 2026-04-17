@@ -1,0 +1,63 @@
+{
+  "sidebar": {
+    "name": "Nam Trần",
+    "role": "Kiên trúc sư Android Cao cấp",
+    "email": "namtrandev9692@gmail.com",
+    "phone": "+84 123 456 789",
+    "location": "Thành phố Hồ Chí Minh, Việt Nam"
+  },
+  "nav": {
+    "about": "Về tôi",
+    "resume": "Lịch sử",
+    "portfolio": "Dự án",
+    "contact": "Liên hệ"
+  },
+  "home": {
+    "headline": "Kỹ thuật Android có khả năng mở rộng.",
+    "hero_subtitle": "Nam Trần, Kỹ sư Android cao cấp với hơn 10 năm kinh nghiệm.",
+    "proficiency_label": "Năng lực Kỹ thuật",
+    "tech_chips": ["Kotlin", "Java", "MVVM / MVI", "Kiến trúc sạch", "Module hóa", "Coroutines & Flow", "Dagger / Hilt", "Retrofit", "Jetpack Compose", "RxJava", "ExoPlayer"]
+  },
+  "about": {
+    "title": "Chào, tôi là Nam.",
+    "text": "Cách tiếp cận kỹ thuật Android của tôi bắt nguồn từ tư duy sản phẩm dài hạn. Tôi không chỉ xây dựng tính năng; tôi kiến trúc các hệ thống có thể bảo trì, có thể kiểm thử và kiên cường trước thay đổi. Với một thập kỷ trong ngành, tôi đã định hướng qua quá trình tiến hóa của khung Android—từ những ngày đầu của Java và Eclipse đến kỷ nguyên hiện đại của Kotlin Coroutines và Jetpack Compose.",
+    "text_short": "Chuyên về kiến trúc hiệu suất cao, module hóa mã sạch và xây dựng hệ sinh thái di động mạnh mẽ, mở rộng theo logic kinh doanh. Chuyên môn sâu về quản lý bộ nhớ, các mẫu phản ứng và bộ công cụ Android hiện đại.",
+    "feat1_title": "Kiến trúc Nguyên khối",
+    "feat1_desc": "Triển khai các mẫu MVVM/MVI nghiêm ngặt để đảm bảo khả năng tách biệt và kiểm thử.",
+    "feat2_title": "Tối ưu Hiệu suất",
+    "feat2_desc": "Chuyên môn sâu về quản lý bộ nhớ, phát hiện rò rỉ và tối ưu hóa tốc độ khung hình."
+  },
+  "resume": {
+    "title": "Lịch sử Kỹ thuật.",
+    "experience": [
+      {
+        "company": "Timo Vietnam JSC",
+        "role": "Ngân hàng số | MVVM, Dagger",
+        "date": "2022 — Hiện tại",
+        "description": "Dẫn dắt triển khai kỹ thuật cho các tính năng ngân hàng cốt lõi, tập trung vào luồng giao dịch an toàn và UI phản ứng."
+      },
+      {
+        "company": "VNPT Media",
+        "role": "Streaming | ExoPlayer",
+        "date": "2019 — 2022",
+        "description": "Tối ưu hóa hiệu suất phát video và triển khai DRM cho các dịch vụ streaming lưu lượng cao."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Dự án Tiêu biểu",
+    "items": [
+      {
+        "name": "VocabNote",
+        "category": "Giáo dục",
+        "description": "Trợ lý học ngôn ngữ thông minh được xây dựng với kiến trúc offline-first."
+      },
+      {
+        "name": "EnglishStudy",
+        "category": "Giáo dục",
+        "description": "Nền tảng giáo dục có tính năng đồng bộ hóa thời gian thực và bộ nhớ đệm cục bộ."
+      }
+    ]
+  },
+  "profile_image": "https://lh3.googleusercontent.com/aida/ADBb0uhPAlTykVLevLPc3QP8vByr8tne7Rxd6hNb2JHGhaKqKbdqBzVcpptpZP8pNrf-MExSWr2sCIRyW2Dc9krsdUVrEltW8zpN6rKWbZgigQnafCrNKHLMFSnzMZd0NztlbyP39OICZWF7bRxmhlPMGUGep-iXleDKf4F3k4wDrKTqbY55qmEXHFcpYgoJCX2FPY_2lNst-OHF879UK15qVixY3FKmqmce-ucTprst7TqJ82uuZ-CfAQ1ttYw"
+}

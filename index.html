@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nam Tran | Senior Android Architect</title>
+    <!-- SEO & Icons -->
+    <meta name="description"
+        content="Portfolio of Nam Tran, a Senior Android Engineer with 10+ years of experience in Scalable Android Engineering.">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="selection:bg-primary selection:text-white">
+
+    <!-- NAVIGATION (Stitch Match) -->
+    <nav class="nav-fixed">
+        <div class="nav-inner">
+            <!-- Empty left div to match Stitch layout if needed, or Logo -->
+            <div class="nav-logo" data-i18n="sidebar.name">NAM TRAN</div>
+
+            <div class="nav-links">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about" data-i18n="nav.about">About Me</a>
+                <a href="#work" class="nav-link" data-section="work" data-i18n="nav.resume">Work</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="vi">VI</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="snap-container">
+
+        <!-- SECTION 1: HOME -->
+        <section id="home" class="snap-section">
+            <div class="monolith-container flex-col relative overflow-y-auto">
+
+                <!-- Hero Content Area -->
+                <div class="hero-wrapper">
+                    <div class="hero-main">
+                        <div class="hero-text">
+                            <h1 class="display-title" data-i18n="home.headline">Scalable Android Engineering.</h1>
+                            <p class="subtitle-hero" data-i18n="home.hero_subtitle">
+                                Nam Tran, Senior Android Engineer with over 10 years of experience.
+                            </p>
+                        </div>
+
+                        <div class="hero-visual">
+                            <img src="./assets/images/android-art.png" alt="Android Technical Art"
+                                class="img-hero-bleed">
+                        </div>
+                    </div>
+
+                    <!-- Technical Highlight Card -->
+                    <div class="tech-section-wrap">
+                        <div class="prof-card">
+                            <span class="prof-label" data-i18n="home.proficiency_label">Technical Proficiency</span>
+                            <p class="prof-text" data-i18n="about.text_short">
+                                Specializing in high-performance architectures, clean code modularization, and building
+                                robust mobile ecosystems that scale with business logic.
+                            </p>
+                            <div class="chip-group" id="tech-chips">
+                                <!-- Chips added via script -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 2: ABOUT -->
+        <section id="about" class="snap-section">
+            <div class="monolith-container">
+                <!-- Two column as per Stitch Section 2 -->
+                <div style="flex: 1; padding: 5rem; border-right: 1px solid var(--outline-variant);">
+                    <h2 class="display-title" style="font-size: 3rem;" data-i18n="about.title">Hello, I'm Nam.</h2>
+                    <div class="prof-text" data-i18n="about.text"></div>
+                </div>
+                <div style="width: 40%; background: var(--surface-container-low); padding: 5rem;"
+                    class="flex flex-col gap-12">
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">architecture</span>
+                        <div>
+                            <h4 class="font-bold text-sm uppercase tracking-wider mb-1" data-i18n="about.feat1_title">
+                                Architectural Integrity</h4>
+                            <p class="text-xs text-on-surface-variant" data-i18n="about.feat1_desc">Strict MVVM/MVI
+                                patterns.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER (Stitch Match) -->
+    <footer class="st-footer">
+        <div class="footer-inner">
+            <p class="footer-copy">© 2024 Senior Android Architect. Built with logic.</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">GitHub</a>
+                <a href="#" class="footer-link">LinkedIn</a>
+                <a href="#" class="footer-link">Stack Overflow</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

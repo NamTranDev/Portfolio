@@ -1,0 +1,75 @@
+{
+  "sidebar": {
+    "name": "Nam Tran",
+    "role": "Senior Android Architect",
+    "email": "namtrandev9692@gmail.com",
+    "phone": "+84 123 456 789",
+    "location": "Ho Chi Minh, Viet Nam"
+  },
+  "nav": {
+    "about": "About Me",
+    "resume": "Work",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "headline": "Scalable Android Engineering",
+    "hero_subtitle": "Nam Tran, Senior Android Engineer with over 10 years of experience.",
+    "proficiency_label": "Technical Proficiency",
+    "tech_chips": [
+      "Kotlin",
+      "Java",
+      "MVVM / MVI",
+      "Clean Architecture",
+      "Modularization",
+      "Coroutines & Flow",
+      "Dagger / Hilt",
+      "Retrofit",
+      "Jetpack Compose",
+      "RxJava",
+      "ExoPlayer"
+    ]
+  },
+  "about": {
+    "title": "Hello, I'm Nam.",
+    "text": "My approach to Android engineering is rooted in long-term product thinking. I don't just build features; I architect systems that are maintainable, testable, and resilient to change. With a decade in the industry, I have navigated the evolution of the Android framework—from the early days of Java and Eclipse to the modern era of Kotlin Coroutines and Jetpack Compose.",
+    "text_short": "Specializing in high-performance architectures, clean code modularization, and building robust mobile ecosystems that scale with business logic. Deep expertise in memory management, reactive patterns, and modern Android toolsets.",
+    "feat1_title": "Architectural Integrity",
+    "feat1_desc": "Implementing strict MVVM/MVI patterns to ensure decoupling and testability.",
+    "feat2_title": "Performance Tuning",
+    "feat2_desc": "Deep expertise in memory management, leak detection, and frame-rate optimization."
+  },
+  "resume": {
+    "title": "Engineering History.",
+    "experience": [
+      {
+        "company": "Timo Vietnam JSC",
+        "role": "Digital Banking | MVVM, Dagger",
+        "date": "2022 — Present",
+        "description": "Lead technical implementation for core banking features, focusing on secure transaction flows and reactive UI."
+      },
+      {
+        "company": "VNPT Media",
+        "role": "Streaming | ExoPlayer",
+        "date": "2019 — 2022",
+        "description": "Optimized video playback performance and DRM implementation for high-traffic streaming services."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "items": [
+      {
+        "name": "VocabNote",
+        "category": "Education",
+        "description": "Intelligent language learning assistant built with offline-first architecture."
+      },
+      {
+        "name": "EnglishStudy",
+        "category": "Education",
+        "description": "Educational platform featuring real-time synchronization and local caching."
+      }
+    ]
+  },
+  "profile_image": "https://lh3.googleusercontent.com/aida/ADBb0uhPAlTykVLevLPc3QP8vByr8tne7Rxd6hNb2JHGhaKqKbdqBzVcpptpZP8pNrf-MExSWr2sCIRyW2Dc9krsdUVrEltW8zpN6rKWbZgigQnafCrNKHLMFSnzMZd0NztlbyP39OICZWF7bRxmhlPMGUGep-iXleDKf4F3k4wDrKTqbY55qmEXHFcpYgoJCX2FPY_2lNst-OHF879UK15qVixY3FKmqmce-ucTprst7TqJ82uuZ-CfAQ1ttYw"
+}
