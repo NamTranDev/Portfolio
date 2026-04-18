@@ -1,10 +1,10 @@
 {
   "sidebar": {
     "name": "NTD",
-    "role": "Senior Android Architect",
+    "role": "Android Engineer",
     "email": "namtrandev9692@gmail.com",
-    "phone": "+84 123 456 789",
-    "location": "Ho Chi Minh, Viet Nam"
+    "phone": "+84 963 160 906",
+    "location": "Ho Chi Minh City, Viet Nam"
   },
   "nav": {
     "home": "Home",
@@ -15,32 +15,31 @@
     "hire_me": "Hire Me"
   },
   "home": {
-    "headline": "Scalable Android Engineering",
-    "hero_subtitle": "Nam Tran, Senior Android Engineer with over 10 years of experience.",
-    "proficiency_label": "Technical Proficiency",
+    "headline": "Focused on Quality, Architecture, and Scalability",
+    "hero_subtitle": "Hi, I'm Nam — an Android Engineer with 10+ years of experience building reliable, maintainable mobile applications.",
+    "proficiency_label": "Technical Expertise",
     "tech_chips": [
       "Kotlin",
       "Java",
-      "MVVM / MVI",
       "Clean Architecture",
+      "MVVM / MVI",
       "Modularization",
       "Coroutines & Flow",
+      "RxJava",
       "Dagger / Hilt",
       "Retrofit",
-      "Jetpack Compose",
-      "RxJava",
+      "Jetpack Components",
       "ExoPlayer"
     ]
   },
   "about": {
-    "title": "Hello, I'm Nam.",
+    "title": "About Me",
     "left_info": [
       {
-        "title": "BIOGRAPHY",
+        "title": "PHILOSOPHY",
         "info": [
-          "Work for money and dev for love"
+          "Work for money but Dev for love"
         ],
-        "hasFromUpwork": false,
         "font": "title"
       },
       {
@@ -49,16 +48,15 @@
           "Ho Chi Minh City, Viet Nam",
           "namtrandev9692@gmail.com"
         ],
-        "hasFromUpwork": false,
         "font": "regular"
       },
       {
-        "title": "SERVICES",
+        "title": "EXPERTISE",
         "info": [
-          "High-performance architectures",
-          "Clean code modularization"
+          "Clean Architecture & Modularization",
+          "Performance Optimization",
+          "Scalable Mobile Systems"
         ],
-        "hasFromUpwork": false,
         "font": "regular"
       }
     ],
@@ -68,7 +66,6 @@
         "info": [
           "10+"
         ],
-        "hasFromUpwork": false,
         "font": "headline"
       },
       {
@@ -91,90 +88,92 @@
     "labels": {
       "from_upwork": "FROM\nUPWORK"
     },
-    "text": "My approach to Android engineering is rooted in long-term product thinking. I don't just build features; I architect systems that are maintainable, testable, and resilient to change. With a decade in the industry, I have navigated the evolution of the Android framework—from the early days of Java and Eclipse to the modern era of Kotlin Coroutines and Jetpack Compose.",
-    "text_short": "Specializing in high-performance architectures, clean code modularization, and building robust mobile ecosystems that scale with business logic. Deeply familiar with memory management, reactive patterns, and the modern Android toolset."
+    "text": "I am an Android Engineer with over a decade of experience working on mobile applications across fintech, media streaming, and consumer platforms. My work centers on designing systems that remain maintainable as they scale, improving code quality through architectural refactoring, and building reliable user experiences in production environments.",
+    "text_short": "Strong background in Android development with a focus on building systems that remain maintainable as they evolve. Experienced in applying Clean Architecture and modular design to manage complexity, structuring codebases for scalability, and handling complex UI flows and state management. Proficient in asynchronous programming with Coroutines and RxJava, as well as integrating and maintaining robust API layers. Emphasizes code clarity, long-term maintainability, and continuous refactoring to support stable product growth."
   },
+  "resume_title": "Work Experience",
   "experience": [
     {
       "company": "FUNiX",
-      "role": "Mentor",
+      "role": "Technical Mentor",
       "date": "Dec 2022 - Present",
-      "description": "Technical mentoring, code review, and project guidance."
+      "description": "Mentor learners in software development through code reviews, technical guidance, and project support, helping them strengthen programming fundamentals and problem-solving skills."
     },
     {
       "company": "Upwork",
-      "role": "Android Developer / Consultant",
+      "role": "Android Engineer",
       "date": "Ongoing",
-      "description": "Maintenance, target SDK updates, and Kotlin app improvements."
+      "description": "Deliver Android consulting services for client projects, focusing on codebase modernization, architecture improvements, bug fixing, and performance optimization across existing mobile applications.",
+      "link_info": "https://www.upwork.com/freelancers/~0177a32bc8c7b54161"
     },
     {
-      "company": "TIMO Vietnam JSC",
+      "company": "Timo Vietnam JSC",
       "role": "Android Engineer",
       "date": "Aug 2021 - Present",
-      "description": "Digital banking, NFC, QR flows, and Clean Architecture refactoring."
+      "description": "Develop and maintain core features for a digital banking application, including onboarding, account services, in-app chat, QR code flows, NFC payments, split bills, and money pots. Led the migration from MVP to MVVM and supported modularization efforts to improve code quality, maintainability, and scalability."
     },
     {
       "company": "VNPT Media",
       "role": "Android Engineer Lead",
       "date": "Sep 2019 - Jul 2021",
-      "description": "Streaming, Android TV, ExoPlayer, and team leadership."
+      "description": "Led Android development for MyTV streaming platforms across mobile and Android TV. Worked on Live TV and VOD features, improved playback stability with ExoPlayer, strengthened application architecture, and guided a small Android team through code reviews and technical direction."
     },
     {
       "company": "Saigon Technology",
       "role": "Android Engineer",
       "date": "Jul 2017 - Aug 2019",
-      "description": "Multi-domain client apps with focus on maintainability."
+      "description": "Developed and maintained Android applications for international clients across multiple domains, contributing to feature delivery, architectural improvements, and long-term maintainability in projects built with MVVM and Clean Architecture."
     },
     {
       "company": "Glite LLP",
       "role": "Android Engineer",
       "date": "Apr 2016 - Jun 2017",
-      "description": "Delivery solutions for international markets."
+      "description": "Contributed to the development of Pizza Hut ordering and delivery applications for multiple markets, including restaurant in-table ordering and customer-facing mobile ordering flows, with a focus on stable feature delivery and maintainable implementation."
     },
     {
       "company": "Sutrix Media",
       "role": "Android Engineer",
       "date": "Dec 2014 - Mar 2016",
-      "description": "Early-career Android experience in communication and music domains."
+      "description": "Worked on Android applications across music streaming, communication, and enterprise domains, handling feature development, maintenance, bug fixing, and performance improvements for client products."
     }
   ],
-  "resume_title": "Work Experience",
   "projects_title": "Selected Projects",
   "projects": [
     {
       "name": "Lifestyle Plus",
-      "category": "Wellness & Loyalty",
+      "category": "Fintech / Lifestyle",
       "image": "./assets/images/timo_image.jpg",
-      "description": "A sophisticated wellness and rewards platform. Orchestrated real-time wearable data synchronization and complex health gamification logic using heavy-duty background processing.",
-      "link": ""
+      "description": "A lifestyle and rewards platform integrated within a digital banking ecosystem, offering users personalized offers, wellness programs, and loyalty benefits through a seamless mobile experience.",
+      "store_link": "https://play.google.com/store/apps/details?id=io.lifestyle.plus&hl=vi"
+    },
+    {
+      "name": "KitchenPal",
+      "category": "Smart Living",
+      "image": "./assets/images/kitchenpal.webp",
+      "description": "A smart kitchen companion that helps users manage groceries, track expiration dates, and reduce food waste with intelligent reminders and food organization features.",
+      "store_link": "https://play.google.com/store/search?q=kitchenpal&c=apps&hl=vi"
     },
     {
       "name": "MyTV Net",
-      "category": "OTT Discovery",
+      "category": "OTT Streaming",
       "image": "./assets/images/MyTV_VNPT.png",
-      "description": "Leading Vietnamese OTT service. Managed the implementation of complex video playback modules for 100+ live channels and low-latency 72h catch-up features.",
-      "link": ""
+      "description": "A comprehensive OTT streaming platform delivering live TV channels and on-demand content, with features such as catch-up TV, program schedules, and multi-device viewing.",
+      "store_link": "https://play.google.com/store/apps/details?id=vn.mytvnet.mobileb2c&hl=vi"
     },
     {
-      "name": "MyTV Phone",
-      "category": "OTT Discovery",
+      "name": "MyTV OTT",
+      "category": "OTT Streaming",
       "image": "./assets/images/MyTV-Phone.jpg",
-      "description": "Leading Vietnamese OTT service. Managed the implementation of complex video playback modules for 100+ live channels and low-latency 72h catch-up features.",
-      "link": ""
+      "description": "A mobile streaming application providing access to live television and a wide range of on-demand entertainment content, designed for convenient viewing anytime, anywhere.",
+      "store_link": "https://play.google.com/store/apps/details?id=vn.mytvnet.b2cott&hl=vi"
     },
     {
-      "name": "iCuisto",
-      "category": "Culinary Solution",
-      "image": "./assets/images/kitchenpal.webp",
-      "description": "An 'anti-waste' culinary solution featuring smart fridge logic. Integrated Nutri-Score APIs and local notification systems for proactive item expiry management.",
-      "link": ""
-    },
-    {
-      "name": "Pizza Hut Vietnam",
-      "category": "Localized E-commerce",
+      "name": "PH Delivery & Takeaway (VN)",
+      "category": "Food Delivery / E-commerce",
       "image": "./assets/images/pizzahut.webp",
-      "description": "Engineered a localized delivery ecosystem. Developed complex ordering flows, real-time GPS courier tracking, and seamless integration with regional payment SDKs.",
-      "link": ""
+      "description": "An online food ordering application that enables users to browse menus, customize orders, and arrange delivery or takeaway, offering a convenient and seamless ordering experience.",
+      "store_link": "https://play.google.com/store/apps/details?id=com.phdv.universal&hl=vi"
     }
-  ]
+  ],
+  "social": {}
 }

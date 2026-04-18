@@ -125,6 +125,7 @@ function renderDynamicContent() {
                 <div class="entry-content-wrap">
                     <h4 class="entry-role">${item.role}</h4>
                     <p class="entry-desc">${item.description}</p>
+                    ${item.link_info ? `<a href="${item.link_info}" target="_blank" class="entry-link">View Info</a>` : ''}
                 </div>
             </div>
         `).join('');
@@ -143,7 +144,7 @@ function renderDynamicContent() {
                     <div class="project-info-wrap">
                         <h2 class="project-name">${item.name}</h2>
                         <p class="project-desc">${item.description}</p>
-                        <button class="project-view-btn">View</button>
+                        <a href="${item.store_link}" target="_blank" class="project-view-btn">View</a>
                     </div>
                 </div>
             `;

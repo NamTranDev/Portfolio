@@ -1,78 +1,75 @@
 {
   "sidebar": {
-    "name": "NAM TRAN DEV",
-    "role": "Senior Android Architect",
+    "name": "NTD",
+    "role": "Kỹ sư Android",
     "email": "namtrandev9692@gmail.com",
-    "phone": "+84 123 456 789",
-    "location": "Ho Chi Minh, Viet Nam"
+    "phone": "+84 963 160 906",
+    "location": "TP. Hồ Chí Minh, Việt Nam"
   },
   "nav": {
-    "home": "Home",
-    "about": "About Me",
-    "resume": "Experience",
-    "portfolio": "Projects",
-    "contact": "Contact",
-    "hire_me": "Hire Me"
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "resume": "Kinh nghiệm",
+    "portfolio": "Dự án",
+    "contact": "Liên hệ",
+    "hire_me": "Thuê tôi"
   },
   "home": {
-    "headline": "Scalable Android Engineering",
-    "hero_subtitle": "Nam Tran, Senior Android Engineer with over 10 years of experience.",
-    "proficiency_label": "Technical Proficiency",
+    "headline": "Tập trung vào Chất lượng, Kiến trúc và Khả năng mở rộng",
+    "hero_subtitle": "Xin chào, tôi là Nam — một Kỹ sư Android với hơn 10 năm kinh nghiệm xây dựng các ứng dụng mobile ổn định và dễ bảo trì.",
+    "proficiency_label": "Chuyên môn kỹ thuật",
     "tech_chips": [
       "Kotlin",
       "Java",
-      "MVVM / MVI",
       "Clean Architecture",
+      "MVVM / MVI",
       "Modularization",
       "Coroutines & Flow",
+      "RxJava",
       "Dagger / Hilt",
       "Retrofit",
-      "Jetpack Compose",
-      "RxJava",
+      "Jetpack Components",
       "ExoPlayer"
     ]
   },
   "about": {
-    "title": "Hello, I'm Nam.",
+    "title": "Giới thiệu",
     "left_info": [
       {
-        "title": "BIOGRAPHY",
+        "title": "TRIẾT LÝ",
         "info": [
-          "Work for money and dev for love"
+          "Làm việc vì tiền nhưng lập trình vì đam mê"
         ],
-        "hasFromUpwork": false,
         "font": "title"
       },
       {
-        "title": "CONTACT",
+        "title": "LIÊN HỆ",
         "info": [
-          "Ho Chi Minh City, Viet Nam",
+          "TP. Hồ Chí Minh, Việt Nam",
           "namtrandev9692@gmail.com"
         ],
-        "hasFromUpwork": false,
         "font": "regular"
       },
       {
-        "title": "SERVICES",
+        "title": "CHUYÊN MÔN",
         "info": [
-          "High-performance architectures",
-          "Clean code modularization"
+          "Clean Architecture & Modularization",
+          "Tối ưu hiệu năng",
+          "Hệ thống mobile có khả năng mở rộng"
         ],
-        "hasFromUpwork": false,
         "font": "regular"
       }
     ],
     "right_info": [
       {
-        "title": "YEARS OF EXPERIENCE",
+        "title": "SỐ NĂM KINH NGHIỆM",
         "info": [
           "10+"
         ],
-        "hasFromUpwork": false,
         "font": "headline"
       },
       {
-        "title": "SUCCESS RATE",
+        "title": "TỶ LỆ THÀNH CÔNG",
         "info": [
           "100%"
         ],
@@ -80,7 +77,7 @@
         "font": "headline"
       },
       {
-        "title": "PROJECTS COMPLETED",
+        "title": "DỰ ÁN HOÀN THÀNH",
         "info": [
           "29"
         ],
@@ -89,92 +86,93 @@
       }
     ],
     "labels": {
-      "from_upwork": "FROM\nUPWORK"
+      "from_upwork": "TỪ\nUPWORK"
     },
-    "text": "My approach to Android engineering is rooted in long-term product thinking. I don't just build features; I architect systems that are maintainable, testable, and resilient to change. With a decade in the industry, I have navigated the evolution of the Android framework—from the early days of Java and Eclipse to the modern era of Kotlin Coroutines and Jetpack Compose.",
-    "text_short": "Specializing in high-performance architectures, clean code modularization, and building robust mobile ecosystems that scale with business logic. Deeply familiar with memory management, reactive patterns, and the modern Android toolset."
+    "text": "Tôi là một Kỹ sư Android với hơn 10 năm kinh nghiệm phát triển ứng dụng mobile trong các lĩnh vực fintech, streaming media và nền tảng tiêu dùng. Công việc của tôi tập trung vào việc thiết kế hệ thống có thể duy trì tốt khi mở rộng, nâng cao chất lượng code thông qua refactor kiến trúc, và xây dựng trải nghiệm người dùng ổn định trong môi trường production.",
+    "text_short": "Có nền tảng vững chắc trong phát triển Android với trọng tâm xây dựng hệ thống dễ bảo trì khi phát triển lâu dài. Thành thạo áp dụng Clean Architecture và thiết kế modular để quản lý độ phức tạp, tổ chức codebase theo hướng scalable, xử lý các luồng UI phức tạp và quản lý state. Kinh nghiệm tốt với lập trình bất đồng bộ sử dụng Coroutines và RxJava, cũng như tích hợp và duy trì API layer ổn định. Luôn ưu tiên code rõ ràng, khả năng bảo trì dài hạn và refactor liên tục để đảm bảo sự phát triển bền vững của sản phẩm."
   },
+  "resume_title": "Kinh nghiệm làm việc",
   "experience": [
     {
       "company": "FUNiX",
-      "role": "Mentor",
-      "date": "Dec 2022 - Present",
-      "description": "Technical mentoring, code review, and project guidance."
+      "role": "Mentor kỹ thuật",
+      "date": "12/2022 - Nay",
+      "description": "Hướng dẫn học viên phát triển phần mềm thông qua review code, tư vấn kỹ thuật và hỗ trợ dự án, giúp củng cố nền tảng lập trình và kỹ năng giải quyết vấn đề."
     },
     {
       "company": "Upwork",
-      "role": "Android Developer / Consultant",
-      "date": "Ongoing",
-      "description": "Maintenance, target SDK updates, and Kotlin app improvements."
+      "role": "Kỹ sư Android",
+      "date": "Đang làm",
+      "description": "Cung cấp dịch vụ tư vấn Android cho các dự án khách hàng, tập trung vào hiện đại hóa codebase, cải thiện kiến trúc, sửa lỗi và tối ưu hiệu năng cho các ứng dụng mobile hiện có.",
+      "link_info": "https://www.upwork.com/freelancers/~0177a32bc8c7b54161"
     },
     {
-      "company": "TIMO Vietnam JSC",
-      "role": "Android Engineer",
-      "date": "Aug 2021 - Present",
-      "description": "Digital banking, NFC, QR flows, and Clean Architecture refactoring."
+      "company": "Timo Vietnam JSC",
+      "role": "Kỹ sư Android",
+      "date": "08/2021 - Nay",
+      "description": "Phát triển và duy trì các tính năng cốt lõi cho ứng dụng ngân hàng số như onboarding, dịch vụ tài khoản, chat nội bộ, QR code, thanh toán NFC, chia hóa đơn và quản lý quỹ. Dẫn dắt quá trình migrate từ MVP sang MVVM và hỗ trợ modularization nhằm nâng cao chất lượng, khả năng bảo trì và mở rộng hệ thống."
     },
     {
       "company": "VNPT Media",
-      "role": "Android Engineer Lead",
-      "date": "Sep 2019 - Jul 2021",
-      "description": "Streaming, Android TV, ExoPlayer, and team leadership."
+      "role": "Trưởng nhóm Android",
+      "date": "09/2019 - 07/2021",
+      "description": "Dẫn dắt phát triển Android cho nền tảng streaming MyTV trên mobile và Android TV. Xây dựng tính năng Live TV và VOD, cải thiện độ ổn định playback với ExoPlayer, nâng cấp kiến trúc ứng dụng và định hướng kỹ thuật cho team Android."
     },
     {
       "company": "Saigon Technology",
-      "role": "Android Engineer",
-      "date": "Jul 2017 - Aug 2019",
-      "description": "Multi-domain client apps with focus on maintainability."
+      "role": "Kỹ sư Android",
+      "date": "07/2017 - 08/2019",
+      "description": "Phát triển và duy trì ứng dụng Android cho khách hàng quốc tế, đóng góp vào việc phát triển tính năng, cải tiến kiến trúc và đảm bảo khả năng bảo trì lâu dài với MVVM và Clean Architecture."
     },
     {
       "company": "Glite LLP",
-      "role": "Android Engineer",
-      "date": "Apr 2016 - Jun 2017",
-      "description": "Delivery solutions for international markets."
+      "role": "Kỹ sư Android",
+      "date": "04/2016 - 06/2017",
+      "description": "Tham gia phát triển ứng dụng đặt hàng Pizza Hut cho nhiều thị trường, bao gồm hệ thống order tại bàn và ứng dụng đặt hàng cho người dùng, tập trung vào tính ổn định và khả năng bảo trì."
     },
     {
       "company": "Sutrix Media",
-      "role": "Android Engineer",
-      "date": "Dec 2014 - Mar 2016",
-      "description": "Early-career Android experience in communication and music domains."
+      "role": "Kỹ sư Android",
+      "date": "12/2014 - 03/2016",
+      "description": "Phát triển ứng dụng Android trong các lĩnh vực streaming nhạc, truyền thông và doanh nghiệp, bao gồm phát triển tính năng, bảo trì, sửa lỗi và tối ưu hiệu năng."
     }
   ],
-  "resume_title": "Work Experience",
-  "projects_title": "Selected Projects",
+  "projects_title": "Dự án tiêu biểu",
   "projects": [
     {
       "name": "Lifestyle Plus",
-      "category": "Wellness & Loyalty",
+      "category": "Fintech / Lifestyle",
       "image": "./assets/images/timo_image.jpg",
-      "description": "A sophisticated wellness and rewards platform. Orchestrated real-time wearable data synchronization and complex health gamification logic using heavy-duty background processing.",
-      "link": ""
+      "description": "Nền tảng lifestyle và rewards tích hợp trong hệ sinh thái ngân hàng số, cung cấp ưu đãi cá nhân hóa, chương trình wellness và loyalty thông qua trải nghiệm mobile liền mạch.",
+      "store_link": "https://play.google.com/store/apps/details?id=io.lifestyle.plus&hl=vi"
+    },
+    {
+      "name": "KitchenPal",
+      "category": "Smart Living",
+      "image": "./assets/images/kitchenpal.webp",
+      "description": "Ứng dụng hỗ trợ nhà bếp thông minh giúp quản lý thực phẩm, theo dõi hạn sử dụng và giảm lãng phí với hệ thống nhắc nhở thông minh.",
+      "store_link": "https://play.google.com/store/search?q=kitchenpal&c=apps&hl=vi"
     },
     {
       "name": "MyTV Net",
-      "category": "OTT Discovery",
+      "category": "OTT Streaming",
       "image": "./assets/images/MyTV_VNPT.png",
-      "description": "Leading Vietnamese OTT service. Managed the implementation of complex video playback modules for 100+ live channels and low-latency 72h catch-up features.",
-      "link": ""
+      "description": "Nền tảng streaming OTT cung cấp kênh truyền hình trực tiếp và nội dung theo yêu cầu, hỗ trợ catch-up TV, lịch phát sóng và xem đa thiết bị.",
+      "store_link": "https://play.google.com/store/apps/details?id=vn.mytvnet.mobileb2c&hl=vi"
     },
     {
-      "name": "MyTV Phone",
-      "category": "OTT Discovery",
+      "name": "MyTV OTT",
+      "category": "OTT Streaming",
       "image": "./assets/images/MyTV-Phone.jpg",
-      "description": "Leading Vietnamese OTT service. Managed the implementation of complex video playback modules for 100+ live channels and low-latency 72h catch-up features.",
-      "link": ""
+      "description": "Ứng dụng mobile streaming cung cấp TV trực tiếp và nội dung giải trí on-demand, tối ưu cho trải nghiệm xem mọi lúc mọi nơi.",
+      "store_link": "https://play.google.com/store/apps/details?id=vn.mytvnet.b2cott&hl=vi"
     },
     {
-      "name": "iCuisto",
-      "category": "Culinary Solution",
-      "image": "./assets/images/kitchenpal.webp",
-      "description": "An 'anti-waste' culinary solution featuring smart fridge logic. Integrated Nutri-Score APIs and local notification systems for proactive item expiry management.",
-      "link": ""
-    },
-    {
-      "name": "Pizza Hut Vietnam",
-      "category": "Localized E-commerce",
+      "name": "PH Delivery & Takeaway (VN)",
+      "category": "Food Delivery / E-commerce",
       "image": "./assets/images/pizzahut.webp",
-      "description": "Engineered a localized delivery ecosystem. Developed complex ordering flows, real-time GPS courier tracking, and seamless integration with regional payment SDKs.",
-      "link": ""
+      "description": "Ứng dụng đặt đồ ăn trực tuyến cho phép duyệt menu, tùy chỉnh đơn hàng và chọn giao hàng hoặc mang đi với trải nghiệm mượt mà.",
+      "store_link": "https://play.google.com/store/apps/details?id=com.phdv.universal&hl=vi"
     }
   ]
 }

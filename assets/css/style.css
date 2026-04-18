@@ -150,6 +150,10 @@ body {
     .lg\:order-2 {
         order: 2;
     }
+
+    .lg\:order-3 {
+        order: 3;
+    }
 }
 
 .selection\:bg-primary::selection {
@@ -592,9 +596,8 @@ body {
 /* --- SECTION: WORK EXPERIENCE (TIMELINE ALIGNMENT) --- */
 .work-header {
     text-align: center;
-    margin-bottom: 8rem;
-    /* Stitch mb-32 */
-    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
 }
 
 @media (min-width: 1024px) {
@@ -770,6 +773,25 @@ body {
     /* Stitch leading-relaxed */
     max-width: 448px;
     /* Stitch max-w-md */
+}
+
+.entry-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.entry-link:hover {
+    opacity: 0.6;
+    letter-spacing: 0.25em;
 }
 
 .col-meta {
@@ -964,9 +986,8 @@ body {
 
 .project-header {
     text-align: center;
-    margin-bottom: 8rem;
-    /* Stitch mb-32 */
-    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
 }
 
 .section-header-row {
