@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NTD Portfolio - Senior Android Architect
 
-## Getting Started
+A minimalist, high-fidelity personal portfolio showcasing a decade of expertise in scalable Android engineering and professional system architecture.
 
-First, run the development server:
+## 🚀 Live Demo
+- **URL**: [https://namtrandev.github.io/Portfolio/]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- **Dynamic Data Architecture**: Content is entirely decoupled from the view layer, driven by localized JSON files for easy updates.
+- **Multi-language Support (i18n)**: Seamless real-time switching between English and Vietnamese.
+- **High-Fidelity Design**: A premium "Technical Minimalist" aesthetic featuring:
+    - Custom editorial grid layouts.
+    - Fluid typography (Scale-aware).
+    - Smooth scroll-snap section transitions.
+- **Responsive & Performant**: Lightweight Vanilla JS/CSS implementation ensuring maximum performance and SEO readiness.
+- **Project Showcase**: Detailed project cards with specific tech-stack highlights and interactive "View" logic.
+
+---
+
+## 🛠 Tech Stack
+
+- **Core**: HTML5, Vanilla CSS3, JavaScript (ES6+)
+- **Architecture**: JSON-driven Dynamic Rendering
+- **Design System**: Custom system inspired by high-end minimalist interfaces.
+- **Icons & Fonts**: Google Fonts (Inter), Material Symbols.
+
+---
+
+## 📂 Directory Structure
+
+```text
+.
+├── assets/
+│   ├── css/            # Core styling and design tokens
+│   ├── js/             # Application logic and rendering engine
+│   ├── data/           # Localization files (en.json, vi.json)
+│   └── images/         # Static assets and project screenshots
+├── index.html          # Main entry point
+└── README.md           # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Local Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
+- A local web server is required to fetch localization data (due to CORS policy on `file://` protocol).
 
-## Learn More
+### Running Locally
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/NamTranDev/Portfolio.git
+   cd Portfolio
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Start a local server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   **Using Python (Recommended):**
+   ```bash
+   python3 -m http.server 8000
+   ```
 
-## Deploy on Vercel
+   **Using Node.js (serve):**
+   ```bash
+   npx serve .
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Access the site:**
+   Open [http://localhost:8000](http://localhost:8000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✉️ Contact
+
+- **Name**: Nam Tran (NTD)
+- **Role**: Senior Android Engineer
+- **Email**: [namtrandev09061992@gmail.com](mailto:namtrandev09061992@gmail.com)
+- **LinkedIn**: [https://www.linkedin.com/in/tr%E1%BA%A7n-nam-abb185119/]
+
+---
+
+Developed with ❤️ by **NTD**.
