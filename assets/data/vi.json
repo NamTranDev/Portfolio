@@ -1,63 +1,180 @@
 {
   "sidebar": {
-    "name": "Nam Trần",
-    "role": "Kiên trúc sư Android Cao cấp",
+    "name": "NAM TRAN DEV",
+    "role": "Senior Android Architect",
     "email": "namtrandev9692@gmail.com",
     "phone": "+84 123 456 789",
-    "location": "Thành phố Hồ Chí Minh, Việt Nam"
+    "location": "Ho Chi Minh, Viet Nam"
   },
   "nav": {
-    "about": "Về tôi",
-    "resume": "Lịch sử",
-    "portfolio": "Dự án",
-    "contact": "Liên hệ"
+    "home": "Home",
+    "about": "About Me",
+    "resume": "Experience",
+    "portfolio": "Projects",
+    "contact": "Contact",
+    "hire_me": "Hire Me"
   },
   "home": {
-    "headline": "Kỹ thuật Android có khả năng mở rộng.",
-    "hero_subtitle": "Nam Trần, Kỹ sư Android cao cấp với hơn 10 năm kinh nghiệm.",
-    "proficiency_label": "Năng lực Kỹ thuật",
-    "tech_chips": ["Kotlin", "Java", "MVVM / MVI", "Kiến trúc sạch", "Module hóa", "Coroutines & Flow", "Dagger / Hilt", "Retrofit", "Jetpack Compose", "RxJava", "ExoPlayer"]
+    "headline": "Scalable Android Engineering",
+    "hero_subtitle": "Nam Tran, Senior Android Engineer with over 10 years of experience.",
+    "proficiency_label": "Technical Proficiency",
+    "tech_chips": [
+      "Kotlin",
+      "Java",
+      "MVVM / MVI",
+      "Clean Architecture",
+      "Modularization",
+      "Coroutines & Flow",
+      "Dagger / Hilt",
+      "Retrofit",
+      "Jetpack Compose",
+      "RxJava",
+      "ExoPlayer"
+    ]
   },
   "about": {
-    "title": "Chào, tôi là Nam.",
-    "text": "Cách tiếp cận kỹ thuật Android của tôi bắt nguồn từ tư duy sản phẩm dài hạn. Tôi không chỉ xây dựng tính năng; tôi kiến trúc các hệ thống có thể bảo trì, có thể kiểm thử và kiên cường trước thay đổi. Với một thập kỷ trong ngành, tôi đã định hướng qua quá trình tiến hóa của khung Android—từ những ngày đầu của Java và Eclipse đến kỷ nguyên hiện đại của Kotlin Coroutines và Jetpack Compose.",
-    "text_short": "Chuyên về kiến trúc hiệu suất cao, module hóa mã sạch và xây dựng hệ sinh thái di động mạnh mẽ, mở rộng theo logic kinh doanh. Chuyên môn sâu về quản lý bộ nhớ, các mẫu phản ứng và bộ công cụ Android hiện đại.",
-    "feat1_title": "Kiến trúc Nguyên khối",
-    "feat1_desc": "Triển khai các mẫu MVVM/MVI nghiêm ngặt để đảm bảo khả năng tách biệt và kiểm thử.",
-    "feat2_title": "Tối ưu Hiệu suất",
-    "feat2_desc": "Chuyên môn sâu về quản lý bộ nhớ, phát hiện rò rỉ và tối ưu hóa tốc độ khung hình."
-  },
-  "resume": {
-    "title": "Lịch sử Kỹ thuật.",
-    "experience": [
+    "title": "Hello, I'm Nam.",
+    "left_info": [
       {
-        "company": "Timo Vietnam JSC",
-        "role": "Ngân hàng số | MVVM, Dagger",
-        "date": "2022 — Hiện tại",
-        "description": "Dẫn dắt triển khai kỹ thuật cho các tính năng ngân hàng cốt lõi, tập trung vào luồng giao dịch an toàn và UI phản ứng."
+        "title": "BIOGRAPHY",
+        "info": [
+          "Work for money and dev for love"
+        ],
+        "hasFromUpwork": false,
+        "font": "title"
       },
       {
-        "company": "VNPT Media",
-        "role": "Streaming | ExoPlayer",
-        "date": "2019 — 2022",
-        "description": "Tối ưu hóa hiệu suất phát video và triển khai DRM cho các dịch vụ streaming lưu lượng cao."
-      }
-    ]
-  },
-  "projects": {
-    "title": "Dự án Tiêu biểu",
-    "items": [
-      {
-        "name": "VocabNote",
-        "category": "Giáo dục",
-        "description": "Trợ lý học ngôn ngữ thông minh được xây dựng với kiến trúc offline-first."
+        "title": "CONTACT",
+        "info": [
+          "Ho Chi Minh City, Viet Nam",
+          "namtrandev9692@gmail.com"
+        ],
+        "hasFromUpwork": false,
+        "font": "regular"
       },
       {
-        "name": "EnglishStudy",
-        "category": "Giáo dục",
-        "description": "Nền tảng giáo dục có tính năng đồng bộ hóa thời gian thực và bộ nhớ đệm cục bộ."
+        "title": "SERVICES",
+        "info": [
+          "High-performance architectures",
+          "Clean code modularization"
+        ],
+        "hasFromUpwork": false,
+        "font": "regular"
       }
-    ]
+    ],
+    "right_info": [
+      {
+        "title": "YEARS OF EXPERIENCE",
+        "info": [
+          "10+"
+        ],
+        "hasFromUpwork": false,
+        "font": "headline"
+      },
+      {
+        "title": "SUCCESS RATE",
+        "info": [
+          "100%"
+        ],
+        "hasFromUpwork": true,
+        "font": "headline"
+      },
+      {
+        "title": "PROJECTS COMPLETED",
+        "info": [
+          "29"
+        ],
+        "hasFromUpwork": true,
+        "font": "headline"
+      }
+    ],
+    "labels": {
+      "from_upwork": "FROM\nUPWORK"
+    },
+    "text": "My approach to Android engineering is rooted in long-term product thinking. I don't just build features; I architect systems that are maintainable, testable, and resilient to change. With a decade in the industry, I have navigated the evolution of the Android framework—from the early days of Java and Eclipse to the modern era of Kotlin Coroutines and Jetpack Compose.",
+    "text_short": "Specializing in high-performance architectures, clean code modularization, and building robust mobile ecosystems that scale with business logic. Deeply familiar with memory management, reactive patterns, and the modern Android toolset."
   },
-  "profile_image": "https://lh3.googleusercontent.com/aida/ADBb0uhPAlTykVLevLPc3QP8vByr8tne7Rxd6hNb2JHGhaKqKbdqBzVcpptpZP8pNrf-MExSWr2sCIRyW2Dc9krsdUVrEltW8zpN6rKWbZgigQnafCrNKHLMFSnzMZd0NztlbyP39OICZWF7bRxmhlPMGUGep-iXleDKf4F3k4wDrKTqbY55qmEXHFcpYgoJCX2FPY_2lNst-OHF879UK15qVixY3FKmqmce-ucTprst7TqJ82uuZ-CfAQ1ttYw"
+  "experience": [
+    {
+      "company": "FUNiX",
+      "role": "Mentor",
+      "date": "Dec 2022 - Present",
+      "description": "Technical mentoring, code review, and project guidance."
+    },
+    {
+      "company": "Upwork",
+      "role": "Android Developer / Consultant",
+      "date": "Ongoing",
+      "description": "Maintenance, target SDK updates, and Kotlin app improvements."
+    },
+    {
+      "company": "TIMO Vietnam JSC",
+      "role": "Android Engineer",
+      "date": "Aug 2021 - Present",
+      "description": "Digital banking, NFC, QR flows, and Clean Architecture refactoring."
+    },
+    {
+      "company": "VNPT Media",
+      "role": "Android Engineer Lead",
+      "date": "Sep 2019 - Jul 2021",
+      "description": "Streaming, Android TV, ExoPlayer, and team leadership."
+    },
+    {
+      "company": "Saigon Technology",
+      "role": "Android Engineer",
+      "date": "Jul 2017 - Aug 2019",
+      "description": "Multi-domain client apps with focus on maintainability."
+    },
+    {
+      "company": "Glite LLP",
+      "role": "Android Engineer",
+      "date": "Apr 2016 - Jun 2017",
+      "description": "Delivery solutions for international markets."
+    },
+    {
+      "company": "Sutrix Media",
+      "role": "Android Engineer",
+      "date": "Dec 2014 - Mar 2016",
+      "description": "Early-career Android experience in communication and music domains."
+    }
+  ],
+  "resume_title": "Work Experience",
+  "projects_title": "Selected Projects",
+  "projects": [
+    {
+      "name": "Lifestyle Plus",
+      "category": "Wellness & Loyalty",
+      "image": "./assets/images/timo_image.jpg",
+      "description": "A sophisticated wellness and rewards platform. Orchestrated real-time wearable data synchronization and complex health gamification logic using heavy-duty background processing.",
+      "link": ""
+    },
+    {
+      "name": "MyTV Net",
+      "category": "OTT Discovery",
+      "image": "./assets/images/MyTV_VNPT.png",
+      "description": "Leading Vietnamese OTT service. Managed the implementation of complex video playback modules for 100+ live channels and low-latency 72h catch-up features.",
+      "link": ""
+    },
+    {
+      "name": "MyTV Phone",
+      "category": "OTT Discovery",
+      "image": "./assets/images/MyTV-Phone.jpg",
+      "description": "Leading Vietnamese OTT service. Managed the implementation of complex video playback modules for 100+ live channels and low-latency 72h catch-up features.",
+      "link": ""
+    },
+    {
+      "name": "iCuisto",
+      "category": "Culinary Solution",
+      "image": "./assets/images/kitchenpal.webp",
+      "description": "An 'anti-waste' culinary solution featuring smart fridge logic. Integrated Nutri-Score APIs and local notification systems for proactive item expiry management.",
+      "link": ""
+    },
+    {
+      "name": "Pizza Hut Vietnam",
+      "category": "Localized E-commerce",
+      "image": "./assets/images/pizzahut.webp",
+      "description": "Engineered a localized delivery ecosystem. Developed complex ordering flows, real-time GPS courier tracking, and seamless integration with regional payment SDKs.",
+      "link": ""
+    }
+  ]
 }

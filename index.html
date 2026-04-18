@@ -14,28 +14,36 @@
 
 <body class="selection:bg-primary selection:text-white">
 
-    <!-- NAVIGATION (Stitch Match) -->
+    <!-- NAVIGATION (High-Fidelity alignment) -->
     <nav class="nav-fixed">
         <div class="nav-inner">
-            <!-- Empty left div to match Stitch layout if needed, or Logo -->
-            <div class="nav-logo" data-i18n="sidebar.name">NAM TRAN</div>
+            <div class="nav-logo" data-i18n="sidebar.name">NAM TRAN DEV</div>
 
-            <div class="nav-links">
-                <a href="#home" class="nav-link active" data-section="home">Home</a>
-                <a href="#about" class="nav-link" data-section="about" data-i18n="nav.about">About Me</a>
-                <a href="#work" class="nav-link" data-section="work" data-i18n="nav.resume">Work</a>
-            </div>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active" data-section="home" data-i18n="nav.home">Home</a>
+                    <a href="#about" class="nav-link" data-section="about" data-i18n="nav.about">About Me</a>
+                    <a href="#work" class="nav-link" data-section="work" data-i18n="nav.resume">Experience</a>
+                    <a href="#projects" class="nav-link" data-section="projects" data-i18n="nav.portfolio">Projects</a>
+                </div>
 
-            <div class="nav-actions">
-                <button class="lang-btn active" data-lang="en">EN</button>
-                <button class="lang-btn" data-lang="vi">VI</button>
+
+            <div class="nav-right">
+                <div class="lang-group">
+                    <button class="lang-btn active" data-lang="en" aria-label="English">
+                        <span class="flag-icon">🇺🇸</span>
+                    </button>
+                    <button class="lang-btn" data-lang="vi" aria-label="Tiếng Việt">
+                        <span class="flag-icon">🇻🇳</span>
+                    </button>
+                </div>
+                <a href="mailto:namtran09061992@gmail.com" class="hire-btn" data-i18n="nav.hire_me">Hire Me</a>
             </div>
         </div>
     </nav>
 
     <main class="snap-container">
 
-        <!-- SECTION 1: HOME -->
+        <!-- SECTION 1: HOME (Hero) -->
         <section id="home" class="snap-section">
             <div class="monolith-container flex-col relative overflow-y-auto">
 
@@ -51,7 +59,7 @@
 
                         <div class="hero-visual">
                             <img src="./assets/images/android-art.png" alt="Android Technical Art"
-                                class="img-hero-bleed">
+                                class="img-hero-bleed" data-i18n-img="portrait">
                         </div>
                     </div>
 
@@ -76,22 +84,54 @@
         <!-- SECTION 2: ABOUT -->
         <section id="about" class="snap-section">
             <div class="monolith-container">
-                <!-- Two column as per Stitch Section 2 -->
-                <div style="flex: 1; padding: 5rem; border-right: 1px solid var(--outline-variant);">
-                    <h2 class="display-title" style="font-size: 3rem;" data-i18n="about.title">Hello, I'm Nam.</h2>
-                    <div class="prof-text" data-i18n="about.text"></div>
-                </div>
-                <div style="width: 40%; background: var(--surface-container-low); padding: 5rem;"
-                    class="flex flex-col gap-12">
-                    <div class="flex gap-4">
-                        <span class="material-symbols-outlined text-primary">architecture</span>
-                        <div>
-                            <h4 class="font-bold text-sm uppercase tracking-wider mb-1" data-i18n="about.feat1_title">
-                                Architectural Integrity</h4>
-                            <p class="text-xs text-on-surface-variant" data-i18n="about.feat1_desc">Strict MVVM/MVI
-                                patterns.</p>
+                <div class="about-grid">
+
+                    <!-- LEFT COLUMN: META INFO -->
+                    <div class="col-meta order-2 lg:order-1" id="about-left-list">
+                        <!-- Rendered dynamically -->
+                    </div>
+
+                    <!-- CENTER COLUMN: PORTRAIT -->
+                    <div class="col-portrait order-1 lg:order-2">
+                        <div class="monolith-image-container">
+                            <img src="./assets/images/profile-art.png" alt="Portrait" class="monolith-image"
+                                data-i18n-img="portrait">
                         </div>
                     </div>
+
+                    <!-- RIGHT COLUMN: STATS -->
+                    <div class="col-stats order-3" id="about-right-list">
+                        <!-- Rendered dynamically -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: WORK (Timeline) -->
+        <section id="work" class="snap-section">
+            <div class="monolith-container flex-col overflow-y-auto">
+                <header class="work-header">
+                    <h2 class="display-title uppercase" data-i18n="resume_title">Work Experience</h2>
+                    <div class="header-divider"></div>
+                </header>
+
+                <div class="timeline-container" id="experience-list">
+                    <!-- Rendered dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: PROJECTS & CAPABILITIES -->
+        <section id="projects" class="snap-section">
+            <div class="monolith-container flex-col overflow-y-auto">
+                <header class="project-header">
+                    <h2 class="display-title uppercase" data-i18n="projects_title">Projects</h2>
+                    <div class="header-divider"></div>
+                </header>
+
+                <div class="projects-grid" id="projects-list">
+                    <!-- Rendered dynamically -->
                 </div>
             </div>
         </section>
