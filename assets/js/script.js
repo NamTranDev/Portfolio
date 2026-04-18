@@ -169,13 +169,12 @@ function updateActiveLangBtn() {
  */
 function setupNavigation() {
     const sections = document.querySelectorAll('.snap-section');
-    const navLinks = document.querySelectorAll('.nav-link');
+    const navLinks = document.querySelectorAll('.nav-link, .drawer-link');
     const container = document.querySelector('.snap-container');
 
     if (!container) return;
 
-    // Scroll listener for active link
-    container.addEventListener('scroll', () => {
+    function syncActiveState() {
         let currentSection = '';
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
@@ -187,6 +186,41 @@ function setupNavigation() {
         navLinks.forEach(link => {
             link.classList.toggle('active', link.dataset.section === currentSection);
         });
+    }
+
+    // Scroll listener for active link
+    container.addEventListener('scroll', syncActiveState);
+
+    // Initial sync
+    syncActiveState();
+}
+
+/**
+ * Handle Mobile Drawer Toggle
+ */
+function setupMobileMenu() {
+    const menuToggle = document.getElementById('menuToggle');
+    const drawerClose = document.getElementById('drawerClose');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const drawerLinks = document.querySelectorAll('.drawer-link');
+
+    if (menuToggle && mobileDrawer) {
+        menuToggle.addEventListener('click', () => {
+            mobileDrawer.classList.add('active');
+        });
+    }
+
+    if (drawerClose && mobileDrawer) {
+        drawerClose.addEventListener('click', () => {
+            mobileDrawer.classList.remove('active');
+        });
+    }
+
+    // Close drawer when a link is clicked
+    drawerLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileDrawer.classList.remove('active');
+        });
     });
 }
 
@@ -196,11 +230,16 @@ function setupNavigation() {
 document.addEventListener('DOMContentLoaded', () => {
     loadLanguage('en');
     setupNavigation();
+    setupMobileMenu();
 
-    // Language switchers
+    // Language switchers (Desktop & Mobile Drawer)
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             loadLanguage(btn.dataset.lang);
+
+            // Close drawer if it was a lang switch from inside drawer
+            const mobileDrawer = document.getElementById('mobileDrawer');
+            if (mobileDrawer) mobileDrawer.classList.remove('active');
         });
     });
 });
